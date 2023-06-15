@@ -1,5 +1,5 @@
-#sql语句
-
+# sql语句
+## 1.用户表
 CREATE TABLE `user_info` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `user_name` varchar(50)  DEFAULT NULL COMMENT '用户名',
@@ -8,6 +8,7 @@ CREATE TABLE `user_info` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+## 1.订单表
 CREATE TABLE `order_info` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
   `user_id` bigint unsigned NOT NULL COMMENT '用户编号',
